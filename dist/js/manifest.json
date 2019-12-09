@@ -1,0 +1,14 @@
+{
+  "short_name": "Athena.SSE",
+  "name": "Athena.SSE",
+  "icons": [
+    {
+      "src": "..img/favicon.png",
+      "sizes": "177x200",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "../../index.php",
+  "display": "standalone",
+  "orientation": "portrait"
+}

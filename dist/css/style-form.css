@@ -1,0 +1,341 @@
+h1 {
+font-family: 'Nunito', sans-serif;
+clear:both;
+text-align:left;
+margin-bottom:10px;
+margin-top:10px;
+}
+
+h2 {
+font-family: 'Nunito', sans-serif;
+clear:both;
+text-align:left;
+margin-bottom:10px;
+margin-top:10px;
+}
+
+p {
+font-family: 'Nunito', sans-serif;
+color:#5e6675;
+}
+
+span {
+font-weight: 700;
+}
+
+.ath_left {
+position:relative;
+width:20%;
+float:left;
+background:#ffffff;
+}
+
+.ath_center {
+position:relative;
+float:left;
+width:80%;
+}
+
+
+#dados_alunos {
+padding: 0 15px 0 15px;
+}
+
+#dados_alunos2 {
+padding: 0 15px 0 15px;
+}
+
+.camp_txt {
+font-family: 'Nunito', sans-serif;
+
+  float:left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #4e4e4e;
+  padding: 6px;
+  width: 100%;
+  font-size: 12px;
+  margin-bottom:3px;
+  
+}
+
+.select_form {
+font-family: 'Nunito', sans-serif;
+
+  clear:both;
+  float:left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #4e4e4e;
+  padding: 6px;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom:3px;
+}
+
+div#foto { border-color: #2ea3f2;  width:151;  padding: 4px 3px; position:relative; 
+both;}
+
+div#foto img {border-color: #2ea3f2;  width:151; border-style: dashed; clear: both;}
+
+div#foto input[type=file]{ position:relative; right:-125px; width:10px height:50px; opacity:0;
+
+input[type=file] {
+    float: left;
+    display: block;
+    both;
+}
+.hide {
+    display: none;
+    float: left;
+    both;
+}
+
+
+}
+
+.required:after {
+  content:" *"; 
+  color: red;
+}
+
+
+.label-form {
+font-family: 'Nunito', sans-serif;
+
+    clear:both;
+    float:left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #5e6675;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.camp_mens {
+font-family: 'Nunito', sans-serif;
+
+  clear:both;
+  float:left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #4e4e4e;
+  padding: 5px;
+  width: 100%;
+  height:300px;
+  vertical-align:top;
+  font-size: 14px;
+  font-family: "Open Sans",Arial,sans-serif;
+}
+
+.camp_txt2 {
+font-family: 'Nunito', sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #4e4e4e;
+  padding: 10px;
+  width: 90%;
+  font-size: 14px;
+  margin-bottom:3px;
+  
+}
+
+
+.bt-enviar:hover {
+font-family: 'Nunito', sans-serif;
+
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #2ea3f2;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin-top: 15px 15px;
+    outline: 0 none;
+    text-decoration: none !important;
+    padding: 17px 28px;
+    vertical-align: top;
+    color:#2ea3f2;
+    font-size:13px;
+    border-radius:26px;
+    text-transform:uppercase;
+}
+
+.bt-enviar {
+font-family: 'Nunito', sans-serif;
+
+    background: #2ea3f2 none repeat scroll 0 0;
+    border: 2px solid #2ea3f2;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin-top: 15px 15px;
+    outline: 0 none;
+    padding: 17px 28px;
+    vertical-align: top;
+    text-decoration: none !important;
+    color:#ffffff;
+    font-size:13px;
+    border-radius:26px;
+    text-transform:uppercase;
+}
+
+
+.bt-enviarex {
+font-family: 'Nunito', sans-serif;
+
+    background: #f8353b none repeat scroll 0 0;
+    border: 2px solid #f8353b;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin-top: 15px 15px;
+    outline: 0 none;
+    padding: 17px 28px;
+    vertical-align: top;
+    color:#ffffff;
+    font-size:13px;
+    border-radius:26px;
+    text-transform:uppercase;
+    margin-left:1%;
+    text-decoration: none !important;
+}
+
+.bt-enviarex:hover {
+font-family: 'Nunito', sans-serif;
+
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #f8353b;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin-top: 15px 15px;
+    outline: 0 none;
+    padding: 17px 28px;
+    vertical-align: top;
+    color:#bd001f;
+    font-size:13px;
+    border-radius:26px;
+    text-transform:uppercase;
+    margin-left:1%;
+    text-decoration: none !important;
+}
+
+.tb-aluno {
+font-family: 'Nunito', sans-serif;
+background-color:f8f9fa;
+width:100%;
+margin-right:20px;
+}
+
+.tb-aluno td {
+font-family: 'Nunito', sans-serif;
+border-bottom: 1px solid #e6e9ec;
+}
+
+
+.tb_altera_aluno {
+font-family: 'Nunito', sans-serif;
+
+background-color:#f8f9fa;
+width:100%;
+margin-right:20px;
+}
+
+.tb_altera_aluno td {
+font-family: 'Nunito', sans-serif;
+
+border-bottom: 1px solid #e6e9ec;
+}
+
+#tb_resp_aluno {
+font-family: 'Nunito', sans-serif;
+
+background-color:#f8f9fa;
+width:100%;
+margin-right:20px;
+}
+
+#tb_resp_aluno td{
+font-family: 'Nunito', sans-serif;
+
+border-bottom: 1px solid #e6e9ec;
+
+#tb-resp-seg td {
+font-family: 'Nunito', sans-serif;
+
+border-bottom: 1px solid #e6e9ec;
+}
+
+.tb_resp_seg_a {
+font-family: 'Nunito', sans-serif;
+
+background-color:#f8f9fa;
+width:100%;
+margin-right:20px;
+}
+
+
+.tb_resp_seg_a td {
+font-family: 'Nunito', sans-serif;
+
+border-bottom: 1px solid #e6e9ec;
+}
+
+#tb-responsavel td {
+font-family: 'Nunito', sans-serif;
+
+border-bottom: 1px solid #e6e9ec;
+}
+
+#tb-responsavel {
+font-family: 'Nunito', sans-serif;
+
+background-color:#f8f9fa;
+width:100%;
+margin-right:20px;
+}
+
+#tb-resp-seg {
+font-family: 'Nunito', sans-serif;
+background-color:#f8f9fa;
+width:100%;
+margin-right:20px;
+}
+
+
+.tdtwo {
+border-bottom: 1px solid #e6e9ec;
+padding-right:20px;
+width:60%;
+vertical-align:top;
+}
+
+
+.tdthree {
+width:15%;
+vertical-align:top;
+}
+
+.ath_left select {
+    height: 29px!important;
+    width: 100%!important;
+    border: 1px solid #ccc!important;
+    color: #000000!important;
+    margin-bottom: 5px!important;
+    padding: 10px!important;
+    font-size: 14px!important;
+}
+
+
+
+.ath_left option {
+    height: 29px!important;
+    width: 100%!important;
+    border: 1px solid #ccc!important;
+    color: #000000!important;
+    margin-bottom: 5px!important;
+    padding: 10px!important;
+    font-size: 14px!important;
+}

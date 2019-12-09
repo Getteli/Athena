@@ -1,0 +1,22 @@
+\\SISTEMA ATHENA - PADRAO
+versão - 2.0.1
+data - 23/07/17
+
+atualzação:
+- notificação de mensagem nova com um pop-up
+- Criar toda a parte de adicionar Material
+- Desenvolver todo o lado FINANCEIRO
+- Mudar o calendário para um nosso usando o full-calendar
+
+info:
+- Para alterar sobre o tempo de expiração de cache, acesse dist/php/cachelogin( ,la,lad,lock,i) [as 3 versões alem da original é para as paginas de ler agenda(d) e lockscreen q tem uma diferença em seu script de verificação de session] e alterar estes arquivos. (no momento o cache esta para 1000 dias
+- Info com a versão do sistema apresentavel no rodapé, dist/php/info.php (contém uma variavel com o valor q ao alterar, altera em todas as paginas), versão atual do sistema 2.0.1.
+- Caso precise testar algo em alguma pagina q tenha methodo GET e nao esteja aparecendo, lembrar que estamos usando uma mascara em JS para apagar os parametros la em cima
+- Caso altere o nome desta pasta (NEW_SISTEM) altere também no arquivo temporizador.js (dist/js, é usado para a notificação no sistema).
+- Para trocar a imagem do favicon, apenas mude o arquivo favicon.png (dist/img/favicon.png) e continue com o mesmo nome.
+
+desafios:
+- Quando se envia uma msg para UM ALUNO, o aviso de notificação (+1) aparece no app, PORÉM, se enviar para UMA TURMA ou TODOS DA CRECHE, essa notificação nao chega(pois nao envia a matricula do aluno), ENTRETANTO, se eu colocar para chegar e tivermos um exemplo de 2 alunos, acontecerá que: CASO um aluno visualize essa msg o CONTADOR vai sumir para o outro aluno..
+
+- Ao enviar um nome (no caso o nome da classe) ex: Berçário (ao chegar no arquivo php ele vira Bercario), ele volta ao sistema como bercario. A nivel de teste de usabilidade de usuario, seria bom ele retornar como Berçário.
+motivo para nao enviar ao banco com os caracter especiais: arquivo de enviar notificação multiplepush crasha ao receber o nome do turma com acento.
